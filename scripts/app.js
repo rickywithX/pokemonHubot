@@ -1,6 +1,5 @@
 'use scrict';
 const Twitter = require('twitter');
-
 const client = new Twitter({
     consumer_key: 'eVYvOfWbZgcug4NBK2bhIBi5L',
     consumer_secret: 'KkgIkR0QKRWhk8o9yDonGeoemoJt2rulgovmDUKM3qijz89JI2',
@@ -9,8 +8,9 @@ const client = new Twitter({
 });
 
 module.exports = (robot) => {
-    robot.hear(/ポケモン>/i, (msg) => {
+    robot.respond(/twitter/i, (msg) => {
         client.get('statuses/home_timeline', {}, function (error, tweets, response) {
+            if (error) msg.send(error);
             msg.send(tweets);
         });
     });
