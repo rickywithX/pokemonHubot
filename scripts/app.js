@@ -26,7 +26,7 @@ function getHomeTimeLine() {
 
 let checkedTweets = [];
 module.exports = (robot) => {
-  robot.hear(/ポケモン同行会の皆さん！ポケモン公式twitterの情報を持ってきますよ！ちなみにこの文章をコピー＆ペーストしてこのチャンネルの貼り付けても、公式twitterの新しいツイートを持ってくることができますよ！/i, (msg) => {
+  robot.hear(/ポケモン同好会の皆さん！ポケモン公式twitterの情報を持ってきますよ！ちなみにこの文章をコピー＆ペーストしてこのチャンネルに貼り付けても、公式twitterの新しいツイートを持ってくることができますよ！/i, (msg) => {
     client.get('statuses/home_timeline', {}, function (error, tweets, response) {
       tweets.forEach(function (homeTimeLineTweet, key) {
         checkedTweets.push(homeTimeLineTweet.text);
