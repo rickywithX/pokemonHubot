@@ -26,9 +26,6 @@ module.exports = (robot) => {
     robot.respond(/pgl/i, (msg) => {
         msg.send('ポケモングローバルリンクです!' + ' \n' + 'https://3ds.pokemon-gl.com/');
     });
-    robot.respond(/PGL/i, (msg) => {
-        msg.send('ポケモングローバルリンクです!' + ' \n' + 'https://3ds.pokemon-gl.com/');
-    });
     robot.respond(/ものおき/i, (msg) => {
         msg.send('ポケモンものおきです!' + ' \n' + 'http://pkc.client.jp/');
     });
