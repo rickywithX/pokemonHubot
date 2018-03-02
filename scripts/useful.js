@@ -1,5 +1,7 @@
 'use strict';
 
+var client = require('cheerio-httpcli');
+
 module.exports = (robot) => {
     //メンションをつけて指定の単語を入力するとそれに応じたURLを提供してくれる
     robot.respond(/公式/i, (msg) => {
@@ -28,6 +30,13 @@ module.exports = (robot) => {
     });
     robot.respond(/ものおき/i, (msg) => {
         msg.send('ポケモンものおきです!' + ' \n' + 'http://pkc.client.jp/');
+    });
+    robot.respond(/ぽけりん/i, (msg) => {
+        client.fetch('http://pokemon-matome.net/', function (err, $, res, body) {
+            msg.send($('#indexbody > div:nth-child(1) > div > div.infobox_in_right > h2 > a').attr('href'));
+            msg.send('http://pokemon-matome.net/');
+            msg.send($('title').text());
+        });
     });
     //botの使い方
     robot.respond(/ポケモン/i, (msg) => {
