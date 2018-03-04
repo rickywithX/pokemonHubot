@@ -541,120 +541,120 @@ module.exports = (robot) => {
     robot.respond(/ヨワシ/i, (msg) => {
         msg.send('ヨワシ(たんどくの姿)のデータです！' + '\n' + '水' + '  ' + '45-20-20-25-25-40-175' + '  ' + 'ひとでなし/じゅうなん/*さいせいりょく' + ' ' + '\n' + 'https://yakkun.com/sm/zukan/n746')
     });
-    
-    robot.hear(/ルガルガン/i, (msg) => {
+
+    robot.respond(/ルガルガン/i, (msg) => {
         msg.send('ルガルガン(たそがれの姿)のデータです！' + '\n' + '岩' + '  ' + '75-117-65-55-65-110-487' + '  ' + 'かたいツメ' + '\n' + 'https://yakkun.com/sm/zukan/n745d')
     });
 
-    robot.hear(/ルガルガン/i, (msg) => {
+    robot.respond(/ルガルガン/i, (msg) => {
         msg.send('ルガルガン(まよなかの姿)のデータです！' + '' + '岩' + '  ' + '85-115-75-55-75-82-487' + '  ' + 'するどいめ/やるき/*ノーガード' + '' + 'https://yakkun.com/sm/zukan/n745f')
     });
 
-    robot.hear(/ルガルガン/i, (msg) => {
+    robot.respond(/ルガルガン/i, (msg) => {
         msg.send('ルガルガン(まひるの姿)のデータです！' + '\n' + '岩' + '  ' + '75-115-65-55-65-112-487' + '  ' + 'するどいめ/すなかき/*ふくつのこころ' + '\n' + 'https://yakkun.com/sm/zukan/n745')
     });
 
-    robot.hear(/イワンコ/i, (msg) => {
+    robot.respond(/イワンコ/i, (msg) => {
         msg.send('イワンコのデータです！' + '\n' + '岩' + '  ' + '45-65-40-30-40-60-280' + '  ' + 'するどいめ/やるき/*ふくつのこころ' + '\n' + 'https://yakkun.com/sm/zukan/n744')
     });
 
-    robot.hear(/アブリボン/i, (msg) => {
+    robot.respond(/アブリボン/i, (msg) => {
         msg.send('アブリボンのデータです！' + '\n' + '虫/妖' + '  ' + '60-55-60-95-70-124-464' + '  ' + 'みつあつめ/りんぷん/*スイートベール' + '\n' + 'https://yakkun.com/sm/zukan/n743')
     });
 
-    robot.hear(/アブリー/i, (msg) => {
+    robot.respond(/アブリー/i, (msg) => {
         msg.send('アブリーのデータです！' + '\n' + '虫/妖' + '  ' + '40-45-40-55-40-84-304' + '  ' + 'みつあつめ/りんぷん/*スイートベール' + '\n' + 'https://yakkun.com/sm/zukan/n742')
     });
 
-    robot.hear(/オドリドリ/i, (msg) => {
+    robot.respond(/オドリドリ/i, (msg) => {
         msg.send('オドリドリ(まいまいの姿)のデータです！' + '\n' + '霊/飛' + '  ' + '75-70-70-98-70-93-476' + '  ' + 'おどりこ' + '\n' + 'https://yakkun.com/sm/zukan/n741m')
     });
 
-    robot.hear(/オドリドリ/i, (msg) => {
+    robot.respond(/オドリドリ/i, (msg) => {
         msg.send('オドリドリ(ふらふらの姿)のデータです！' + '\n' + '超/飛' + '  ' + '75-70-70-98-70-93-476' + '  ' + 'おどりこ' + '\n' + 'https://yakkun.com/sm/zukan/n741f')
     });
 
-    robot.hear(/オドリドリ/i, (msg) => {
+    robot.respond(/オドリドリ/i, (msg) => {
         msg.send('オドリドリ(ぱちぱちの姿)のデータです！' + '\n' + '電/飛' + '  ' + '75-70-70-98-70-93-476' + '  ' + 'おどりこ' + '\n' + 'https://yakkun.com/sm/zukan/n741p')
     });
 
-    robot.hear(/オドリドリ/i, (msg) => {
+    robot.respond(/オドリドリ/i, (msg) => {
         msg.send('オドリドリ(めらめらの姿)のデータです！' + '\n' + '炎/飛' + '  ' + '75-70-70-98-70-93-476' + '  ' + 'おどりこ' + '\n' + 'https://yakkun.com/sm/zukan/n741')
     });
 
-    robot.hear(/ケケンカニ/i, (msg) => {
+    robot.respond(/ケケンカニ/i, (msg) => {
         msg.send('ケケンカニのデータです！' + '\n' + '闘/氷' + '  ' + '97-132-77-62-67-43-478' + '  ' + 'かいりきバサミ/てつのこぶし/*いかりのつぼ' + '\n' + 'https://yakkun.com/sm/zukan/n740')
     });
 
-    robot.hear(/マケンカニ/i, (msg) => {
+    robot.respond(/マケンカニ/i, (msg) => {
         msg.send('マケンカニのデータです！' + '\n' + '闘' + '  ' + '47-82-57-42-47-63-338' + '  ' + 'かいりきバサミ/てつのこぶし/*いかりのつぼ' + '\n' + 'https://yakkun.com/sm/zukan/n739')
     });
 
-    robot.hear(/クワガノン/i, (msg) => {
+    robot.respond(/クワガノン/i, (msg) => {
         msg.send('クワガノンのデータです！' + '\n' + '虫/電' + '  ' + '77-70-90-145-75-43-500' + '  ' + 'ふゆう' + '\n' + 'https://yakkun.com/sm/zukan/n739')
     });
 
-    robot.hear(/デンヂムシ/i, (msg) => {
+    robot.respond(/デンヂムシ/i, (msg) => {
         msg.send('デンヂムシのデータです！' + '\n' + '虫/電' + '  ' + '57-82-95-55-75-36-400' + '  ' + 'バッテリー' + '\n' + 'https://yakkun.com/sm/zukan/n737')
     });
 
-    robot.hear(/アゴジムシ/i, (msg) => {
+    robot.respond(/アゴジムシ/i, (msg) => {
         msg.send('アゴジムシのデータです！' + '\n' + '虫' + '  ' + '47-62-45-55-45-46-300' + '  ' + 'むしのしらせ' + '\n' + 'https://yakkun.com/sm/zukan/n736')
     });
 
-    robot.hear(/デカグース/i, (msg) => {
+    robot.respond(/デカグース/i, (msg) => {
         msg.send('デカグースのデータです！' + '\n' + 'ノ' + '  ' + '88-110-60-55-60-45-418' + '  ' + 'はりこみ/がんじょうあご/*てきおうりょく' + '\n' + 'https://yakkun.com/sm/zukan/n735')
     });
 
-    robot.hear(/ヤングース/i, (msg) => {
+    robot.respond(/ヤングース/i, (msg) => {
         msg.send('ヤングースのデータです！' + '\n' + 'ノ' + '  ' + '48-70-30-30-30-45-253' + '  ' + 'はりこみ/がんじょうあご/*てきおうりょく' + '\n' + 'https://yakkun.com/sm/zukan/n734')
     });
 
-    robot.hear(/ドデカバシ/i, (msg) => {
+    robot.respond(/ドデカバシ/i, (msg) => {
         msg.send('ドデカバシのデータです！' + '\n' + 'ノ/飛' + '  ' + '80-120-75-75-75-60-485' + '  ' + 'するどいめ/スキルリンク/*ちからずく' + '\n' + 'https://yakkun.com/sm/zukan/n733')
     });
-    robot.hear(/ケララッパ/i, (msg) => {
+    robot.respond(/ケララッパ/i, (msg) => {
         msg.send('ケララッパのデータです！' + '\n' + 'ノ/飛' + '  ' + '55-85-50-40-50-75-355' + '  ' + 'するどいめ/スキルリンク/*ものひろい' + '\n' + 'https://yakkun.com/sm/zukan/n732')
     });
 
-    robot.hear(/ツツケラ/i, (msg) => {
+    robot.respond(/ツツケラ/i, (msg) => {
         msg.send('ツツケラのデータです！' + '\n' + 'ノ/飛' + '  ' + '35-75-30-30-30-65-265' + '  ' + 'するどいめ/スキルリンク/*ものひろい' + '\n' + 'https://yakkun.com/sm/zukan/n731')
     });
 
-    robot.hear(/アシレーヌ/i, (msg) => {
+    robot.respond(/アシレーヌ/i, (msg) => {
         msg.send('アシレーヌのデータです！' + '\n' + '水/妖' + '  ' + '80-74-74-126-116-60-530' + '  ' + 'げきりゅう/*うるおいボイス' + '\n' + 'https://yakkun.com/sm/zukan/n730')
     });
 
-    robot.hear(/オシャマリ/i, (msg) => {
+    robot.respond(/オシャマリ/i, (msg) => {
         msg.send('オシャマリのデータです！' + '\n' + '水' + '  ' + '60-69-69-91-81-50-420' + '  ' + 'げきりゅう/*うるおいボイス' + '\n' + 'https://yakkun.com/sm/zukan/n729')
     });
 
 
-    robot.hear(/アシマリ/i, (msg) => {
+    robot.respond(/アシマリ/i, (msg) => {
         msg.send('アシマリのデータです！' + '\n' + '水' + '  ' + '50-54-54-66-56-40-320' + '  ' + 'げきりゅう/*うるおいボイス' + '\n' + 'https://yakkun.com/sm/zukan/n728')
     });
 
-    robot.hear(/ガオガエン/i, (msg) => {
+    robot.respond(/ガオガエン/i, (msg) => {
         msg.send('ガオガエンのデータです！' + '\n' + '炎/悪' + '  ' + '95-115-90-80-90-60-530' + '  ' + 'もうか/*いかく' + '\n' + 'https://yakkun.com/sm/zukan/n727')
     });
 
-    robot.hear(/ニャヒート/i, (msg) => {
+    robot.respond(/ニャヒート/i, (msg) => {
         msg.send('ニャヒートのデータです！' + '\n' + '炎' + '  ' + '65-85-50-80-50-90-420' + '  ' + 'もうか/*いかく' + '\n' + 'https://yakkun.com/sm/zukan/n726')
     });
 
-    robot.hear(/ニャビー/i, (msg) => {
+    robot.respond(/ニャビー/i, (msg) => {
         msg.send('ニャビーのデータです！' + '\n' + '炎' + '  ' + '45-65-40-60-40-70-320' + '  ' + 'もうか/*いかく' + '\n' + 'https://yakkun.com/sm/zukan/n725')
     });
 
-    robot.hear(/ジュナイパー/i, (msg) => {
+    robot.respond(/ジュナイパー/i, (msg) => {
         msg.send('ジュナイパーのデータです！' + '\n' + '草/霊' + '  ' + '78-107-75-100-100-70-530' + '  ' + 'しんりょく/*えんかく' + '\n' + 'https://yakkun.com/sm/zukan/n724')
     });
 
-    robot.hear(/フクスロー/i, (msg) => {
+    robot.respond(/フクスロー/i, (msg) => {
         msg.send('フクスローのデータです！' + '\n' + '草/飛' + '  ' + '78-75-75-70-70-52-4200' + '  ' + 'しんりょく/*えんかく' + '\n' + 'https://yakkun.com/sm/zukan/n723')
     });
 
-    robot.hear(/モクロー/i, (msg) => {
+    robot.respond(/モクロー/i, (msg) => {
         msg.send('モクローのデータです！' + '\n' + '草/飛' + '  ' + '68-55-55-50-50-42-320' + '  ' + 'しんりょく/*えんかく' + '\n' + 'https://yakkun.com/sm/zukan/n722')
     });
 };
