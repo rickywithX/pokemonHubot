@@ -651,7 +651,7 @@ module.exports = (robot) => {
     });
 
     robot.respond(/フクスロー/i, (msg) => {
-        msg.send('フクスローのデータです！' + '\n' + '草/飛' + '  ' + '78-75-75-70-70-52-4200' + '  ' + 'しんりょく/*えんかく' + '\n' + 'https://yakkun.com/sm/zukan/n723')
+        msg.send('フクスローのデータです！' + '\n' + '草/飛' + '  ' + '78-75-75-70-70-52-420' + '  ' + 'しんりょく/*えんかく' + '\n' + 'https://yakkun.com/sm/zukan/n723')
     });
 
     robot.respond(/モクロー/i, (msg) => {
