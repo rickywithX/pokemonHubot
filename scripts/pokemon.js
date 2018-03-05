@@ -819,7 +819,7 @@ module.exports = (robot) => {
 
 
     // みたらしのやつーーーー
-    robot.hear(/ナットレイ/i, (msg) => {
+    robot.respond(/ナットレイ/i, (msg) => {
         msg.send('ナットレイのデータです！' + '\n' + ' ' + '草/鋼 ' + '  ' + '74-94-131-54-116-20-489' + '  ' + 'てつのとげ/きけんよち' + ' ' + '\n' + 'https://yakkun.com/sm/zukan/n598');
     });
 };
