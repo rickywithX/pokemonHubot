@@ -1,19 +1,14 @@
 'use scrict';
 const Twitter = require('twitter');
 
-// const client = new Twitter({
-//   consumer_key: process.env.TWITTER_API_CONSUMER_KEY,
-//   consumer_secret: process.env.TWITTER_API_CONSUMER_SECRET,
-//   access_token_key: process.env.TWITTER_API_ACCESS_TOKEN_KEY,
-//   access_token_secret: process.env.TWITTER_API_ACCESS_TOKEN_SECRET
-// });
-
 const client = new Twitter({
-  consumer_key: 'eVYvOfWbZgcug4NBK2bhIBi5L',
-  consumer_secret: 'KkgIkR0QKRWhk8o9yDonGeoemoJt2rulgovmDUKM3qijz89JI2',
-  access_token_key: '960387461674250241-HRyML3QWoLVdDNxkYCEOTOhD5LcgEF2',
-  access_token_secret: 'er7Zrcmaur7pUa8GWaAfFKn1bGgDslQv6ZgVcuoMMOkvq'
+  consumer_key: process.env.TWITTER_API_CONSUMER_KEY,
+  consumer_secret: process.env.TWITTER_API_CONSUMER_SECRET,
+  access_token_key: process.env.TWITTER_API_ACCESS_TOKEN_KEY,
+  access_token_secret: process.env.TWITTER_API_ACCESS_TOKEN_SECRET
 });
+
+
 
 
 
