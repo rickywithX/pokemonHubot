@@ -972,6 +972,7 @@ module.exports = (robot) => {
     //ミロカロスーーーーー
     robot.respond(/ミロカロス/i, (msg) => {
         msg.send('ミロカロスは神ポケモン、その事実は揺らがない。');
+        msg.send('てか誰だよこんな無能bot作ったの。');
     });
     robot.respond(/ヤットレイ/i, (msg) => {
         msg.send('んんｗｗｗｗｗヤットレイのデータですなｗｗｗｗｗ知らない以外ありえないｗｗｗｗｗｗ' + '\n' + '草/鋼' + ' ' + '74-94-131-54-116-20-489' + ' ' + 'てつのとげ/*きけんよち' + '\n' + 'https://www.google.co.jp/amp/s/www29.atwiki.jp/yakuwarironri66/pages/112.amp');
